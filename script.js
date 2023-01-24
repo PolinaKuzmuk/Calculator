@@ -5,7 +5,7 @@ function firstCalculator() {
 
     switch (operator) {
         case '+':
-            console.log(firstNumber + secondNumber);
+            console.log(parseInt(firstNumber) + parseInt(secondNumber));
             break;
         case '-':
             console.log(firstNumber - secondNumber);
